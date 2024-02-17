@@ -9,10 +9,10 @@ class AboutMeController extends Controller
     public function index() 
     {
         $data = [
-            'name' => 'John Doe',
-            'age' => 30,
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+            'name' => 'Jericho Dizon Tamondong',
+            'age' => 23,
+            'major' => 'Web Technology.'
         ];
-        return view('about_me', $data);
+        return view('About_Me', $data);
     }
 }
